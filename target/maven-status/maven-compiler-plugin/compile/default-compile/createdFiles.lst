@@ -1,0 +1,13 @@
+com/task/report/ReportStatusApplication.class
+com/task/report/service/impl/UserServiceImpl.class
+com/task/report/controller/RestControllerSQL.class
+com/task/report/singleton/Singleton.class
+com/task/report/service/UserService.class
+com/task/report/service/KafkaService.class
+com/task/report/repository/SQLRepository.class
+com/task/report/entity/Status.class
+com/task/report/entity/Parent.class
+com/task/report/controller/RestApiController.class
+com/task/report/entity/Data.class
+com/task/report/controller/StreamKafkaOnlyController.class
+com/task/report/ServletInitializer.class
