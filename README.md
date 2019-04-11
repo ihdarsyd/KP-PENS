@@ -6,4 +6,4 @@ A. Monitoring Data Kafka
 
 B. Monitoring Data Hbase
 
-C. Rest Account-Group Telegram
+C. Send Report Issue Hbase to Telegram
