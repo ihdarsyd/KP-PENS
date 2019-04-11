@@ -56,7 +56,4 @@ public class RestApiControllerKafka {
     	 sqlService.save(status);
     	 return new ResponseEntity<Status>(status, HttpStatus.OK);
     }
-    
-    
-    
 }

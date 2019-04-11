@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class MonitoringIssueService {
-	static Map<String,String> map = new HashMap<String,String>();
+	Map<String,String> map = new HashMap<String,String>();
  
-	public static void insert(String key, String value) {
+	public void insert(String key, String value) {
 		map.put(key, value);
 	}
  
@@ -29,5 +29,9 @@ public class MonitoringIssueService {
 			}
 		}
 		return null;
+	}
+	
+	public void deleteAll(){
+		map.clear();
 	}
 }
